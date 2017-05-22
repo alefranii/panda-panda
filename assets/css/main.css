@@ -39,7 +39,19 @@ body{
 
 }
 
+.pandita2{
+	margin-left: 40px;
+	padding: 20px 0;
 
+
+}
+
+.iframe{
+	margin-left: 40px;
+	padding: 20px 0;
+
+
+}
 .panda{
 	display:inline-block;
 	width: 150px; 
@@ -101,9 +113,16 @@ body{
 .salir{
 	display: none;
 }
+
 footer{
 	text-align: right;
 	font-size: 20px;
 	color: white;
 	padding: 20px;
+}
+.foot1{
+	background-image: url("../img/pandi.png");
+    background-repeat: repeat-x;
+    background-size: 200px;
+    height: 100px;
 }
