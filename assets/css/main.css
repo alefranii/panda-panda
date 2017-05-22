@@ -1,0 +1,109 @@
+*{
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "Baloo Paaji", sans-serif;
+	margin: 0;
+	padding: 0;
+	display:inline-block;
+	background-color: #230104;
+}
+
+
+
+.navegador{
+	padding: 20px;
+	background-color: #ed091e;
+	overflow: auto;
+}
+
+.navegador li{
+	display: inline;
+	list-style: none;	
+	text-decoration: underline;
+	color: #fff;
+	margin-left: 20px;
+}
+
+.imagenes{
+	margin-left: 40px;
+	padding: 20px 0;
+
+
+}
+.pandita{
+	margin-left: 40px;
+	padding: 20px 0;
+
+
+}
+
+
+.panda{
+	display:inline-block;
+	width: 150px; 
+	height: 150px;
+	margin: 20px;
+	border: 3px solid #ed5361;
+	filter: grayscale(80%);
+}
+
+.uno{
+	background-image: url(../img/a1.jpg);
+}
+
+.dos{
+	background-image: url(../img/a2.jpg);
+}
+
+.tres{
+	background-image: url(../img/a3.jpg);
+}
+
+.cuatro{
+	background-image: url(../img/a4.jpg);
+}
+.panda span{
+	color: white;
+	padding: 10px 10px;
+}
+
+.botones{
+	text-align: center;
+}
+
+.botones a{
+	display: inline-block;
+	padding: 10px 12%;
+	margin-top: 20px;
+	background-color:#e2091d; 
+	text-decoration: none;
+	color: #fff;
+}
+
+.botones a:hover{
+	background-color: #e2091d;
+	color: #000;
+}
+
+.parrafos{
+	width: 100%;
+	color: white;
+}
+.parrafos p{
+	display: inline-block;
+	width: 42%;
+	padding: 1%;
+	text-align: justify;
+}
+
+.salir{
+	display: none;
+}
+footer{
+	text-align: right;
+	font-size: 20px;
+	color: white;
+	padding: 20px;
+}
