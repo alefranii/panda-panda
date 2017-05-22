@@ -101,23 +101,27 @@ nav a:hover {
 .letras {
 	width: 909px;
 	margin: 0 auto;
+	background-color: #b21c24;
 }
 
 .letras p {
 	
 	margin-top: 50px;
+	background-color: #b21c24;
 }
 
 .izquierda {
 	float: left;
 	width: 47%;
 	text-align: justify;
+	color: white;
 }
 
 .derecha {
 	float: right;
 	width: 47%;
 	text-align: justify;
+	color: white;
 }
 
 .display {
