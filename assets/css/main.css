@@ -1,30 +1,51 @@
-*{
-	padding: 0;
-	box-sizing: border-box;
-}
-body{
-	font-family: "Baloo Paaji", sans-serif;
+body {
+	background-color: #514025;
+	background-image: url("../img/fondo.jpg");
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
 	margin: 0;
-	padding: 0;
-	display:inline-block;
-	background-color: #230104;
+}
+
+nav {
+	background-color: #b21c24;
+	margin: 0;
+	padding: 0px 0px 0px 80px;
+	overflow: hidden;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: 	#f2f2ef;
+	padding: 26px;
+	text-align: center;
+}
+
+nav a:hover {
+	background-color: #af9670;
+	color: #b21c24;
 }
 
 
-
-.navegador{
-	padding: 20px;
-	background-color: #ed091e;
-	overflow: auto;
+.m-navegacion {
+	background-color: #b21c24;
+	width: 909px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.m-navegacion a {
+	display: inline-block;
+	text-decoration: none;
+	color: 	#f2f2ef;
+	padding: 26px 0;
+	width: 300px;
+	text-align: center;
 }
 
-.navegador li{
-	display: inline;
-	list-style: none;	
-	text-decoration: underline;
-	color: #fff;
-	margin-left: 20px;
-}
+.m-navegacion a:hover {
+	background-color: #af9670;
+	color: #b21c24;
+} 
 
 .imagenes{
 	margin-left: 40px;
@@ -33,25 +54,14 @@ body{
 
 }
 .pandita{
+	display:inline-block;
+	width: 3000px;
 	margin-left: 40px;
 	padding: 20px 0;
 
 
 }
 
-.pandita2{
-	margin-left: 40px;
-	padding: 20px 0;
-
-
-}
-
-.iframe{
-	margin-left: 40px;
-	padding: 20px 0;
-
-
-}
 .panda{
 	display:inline-block;
 	width: 150px; 
@@ -81,36 +91,36 @@ body{
 	padding: 10px 10px;
 }
 
-.botones{
-	text-align: center;
+
+.salir{
+	display: none;
+
 }
 
-.botones a{
-	display: inline-block;
-	padding: 10px 12%;
-	margin-top: 20px;
-	background-color:#e2091d; 
-	text-decoration: none;
-	color: #fff;
+
+.letras {
+	width: 909px;
+	margin: 0 auto;
 }
 
-.botones a:hover{
-	background-color: #e2091d;
-	color: #000;
+.letras p {
+	
+	margin-top: 50px;
 }
 
-.parrafos{
-	width: 100%;
-	color: white;
-}
-.parrafos p{
-	display: inline-block;
-	width: 42%;
-	padding: 1%;
+.izquierda {
+	float: left;
+	width: 47%;
 	text-align: justify;
 }
 
-.salir{
+.derecha {
+	float: right;
+	width: 47%;
+	text-align: justify;
+}
+
+.display {
 	display: none;
 }
 
@@ -119,10 +129,11 @@ footer{
 	font-size: 20px;
 	color: white;
 	padding: 20px;
+	background-color: #b21c24;
 }
 .foot1{
 	background-image: url("../img/pandi.png");
-    background-repeat: repeat-x;
-    background-size: 200px;
-    height: 100px;
-}
+	background-color: #b21c24;
+	background-repeat: repeat-x;
+	background-size: 200px;
+	height: 100px;
